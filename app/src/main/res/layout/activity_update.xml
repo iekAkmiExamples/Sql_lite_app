@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/create_button"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreationActivity">
+
+    <EditText
+        android:id="@+id/note_titleU"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="112dp"
+        android:layout_marginBottom="17dp"
+        android:ems="10"
+        android:hint="Write a Title"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/note_tagU"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.962" />
+
+    <Button
+        android:id="@+id/update_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="155dp"
+        android:layout_marginTop="113dp"
+        android:layout_marginEnd="162dp"
+        android:layout_marginBottom="77dp"
+        android:text="Update"
+        android:backgroundTint="@color/purple_200"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/note_descriptionU"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/note_tagU"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="112dp"
+        android:layout_marginBottom="19dp"
+        android:ems="10"
+        android:hint="Write a Tag"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/note_descriptionU"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/note_titleU" />
+
+    <EditText
+        android:id="@+id/note_descriptionU"
+        android:layout_width="350dp"
+        android:layout_height="146dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="90dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="Description"
+        android:inputType="textMultiLine"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/note_tagU" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
