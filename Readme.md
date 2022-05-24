@@ -2,9 +2,8 @@
 
 ## Project Info
 
-This is an 2 Activities app with Recycle View. The project contains a list (created with recycleView) with custom cards as list components
-and a details activity that you can access by clicking a list item that provides the full info of a University and a button to access the
-domain.
+This is a basic notes app that utilizes the SQL lite in order to store the notes. The project contains a list (created with recycleView) with basic custom card as list components
+and three activities one main activity that displays all the notes, a create activity and a edit activity that the user can access through taping on a note.
 
 ## Download the project
 
