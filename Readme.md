@@ -18,11 +18,11 @@ and three activities one main activity that displays all the notes, a create act
 
 ```
 cd to_your_directory
-git clone https://github.com/iekAkmiExamples/RecycleViewExample.git
+git clone https://github.com/iekAkmiExamples/Sql_lite_app.git
 ```
 
 ### Clone from terminal (ssh)
 
 ```
 cd to_your_directory
-git clone git@github.com:iekAkmiExamples/RecycleViewExample.git
+git clone git@github.com:iekAkmiExamples/Sql_lite_app.git
